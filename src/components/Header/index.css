@@ -1,0 +1,73 @@
+.header-container {
+  height: 10vh;
+  background-color: #061720;
+  display: flex;
+  margin: auto;
+}
+.header-responsive {
+  display: flex;
+  width: 90%;
+  align-items: center;
+  margin: auto;
+  justify-content: space-between;
+}
+.page-heading {
+  font-family: 'Roboto';
+  font-size: 25px;
+  color: #c0c3c6;
+}
+.search-container {
+  display: flex;
+  align-items: center;
+  height: 35px;
+  width: 350px;
+}
+
+.search-bar {
+  height: 35px;
+  width: 250px;
+  outline: none;
+  padding-left: 12px;
+  color: #ffffff;
+  border: 1px solid #b1b7bbac;
+  border-radius: 4px;
+  background-color: transparent;
+}
+.search-btn {
+  color: #1c1b1b;
+  font-family: 'Roboto';
+  cursor: pointer;
+  text-align: center;
+  font-size: 16px;
+  height: 35px;
+  background-color: #c0c3c6;
+  border: none;
+}
+.nav-items-container {
+  display: flex;
+  align-items: center;
+  padding-left: 0;
+  list-style-type: none;
+  color: #c0c3c6;
+  font-weight: 500;
+}
+.nav-item {
+  text-decoration: none;
+  margin-right: 10px;
+  color: #e5e9ec;
+  font-family: 'Roboto';
+  font-size: 16px;
+}
+@media (max-width: 576px) {
+  .nav-item {
+    margin-left: 0;
+    margin-right: 5px;
+    font-size: 14px;
+  }
+  .page-heading {
+    font-size: 22px;
+  }
+}
+.home-link {
+  text-decoration: none;
+}
